@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "description": "my test",
-  "name": "P Tag Changer",
+  "name": "URL C",
   "version": "1.0.0",
   "icons": {
     "16": "./obj-16x16.png",
@@ -10,12 +10,12 @@
     "128": "./obj-128x128.png"
   },
   "background": {
-    "scripts": ["Content.js"]
+    "scripts": ["background.js"]
   },
   "options_page": "./options.html",
   "browser_action": {
     "default_popup": "Popup.html",
     "default_title": "P Tag Changer"
   },
-  "permissions": ["tabs", "http://www.google.com/*"]
+  "permissions": ["tabs", "https://www.google.com/*"]
 }
